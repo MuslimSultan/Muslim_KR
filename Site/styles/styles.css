@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+
+header {
+  background: url('../images/Rectangle.png') center/cover no-repeat;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.head-element a {
+  color:#f9f9f9; 
+  margin-left: 30px; 
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+  width: 67px;
+  height: 20px;
+  top: 40px;
+  left: 952px;
+  font-size:  12px;
+  
+}
+
+.head-content a {
+  font-size: 12px;
+}
+
+.head-content h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.our_projects {
+  margin-top: 30px;
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.all_services {
+  margin-top: 30px;
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.all_services1 {
+  margin-top: 30px;
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.work {
+  text-align: center;
+}
+
+.projects-button {
+  margin-top: 30px;
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.services{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0px;
+}
+.newsletter{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0px;
+}
+.stats{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.content-row p {
+  color: #777;
+  flex-direction: column;
+}
+
+.specializations {
+  background-color: slateblue;
+  padding: 30px 20px;
+  text-align:start;
+  margin: 20px 0px;
+}
+
+.specializations a {
+  color: #1e90ff;
+}
+
+.video {
+  background: url('../images/Rectangle.png') center/cover no-repeat;
+  width: 97%;
+  height: 170px;
+  top: 4148px;
+  color: #f9f9f9;
+}
+
+.video-preview {
+  position: relative;
+  display: inline-block;
+}
+
+.video-preview img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  height: 180px;
+  width: 600px;
+}
+
+.video-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.stats-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  flex-direction: row;
+
+}
+
+.work-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.service {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+}
+
+.stats-list div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+}
+
+.work-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+}
+
+.video{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+footer div {
+  max-width: 200px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.content-row img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.work-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h2, h4 {
+  margin-bottom: 10px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+}
